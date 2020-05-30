@@ -11,8 +11,6 @@ if __name__ == "__main__":
         print("Pass")
     else:
         print("Fail")
-
-
     # while loop
     i = 0
     while i < 5:
@@ -31,7 +29,7 @@ if __name__ == "__main__":
             i += 1  # it is similar to i = i+1
 
     #for block
-    for i in range(5):
+    for i in range(10):
         if i == 3:
             break
         p = int(input("Enter you percentage:"))
