@@ -6,8 +6,8 @@ class MyClass1:
     a = 10
     def __init__(self, mylist):
         try:
-            #raise KeyError()
-            # raise AttributeError("this is attr error")
+            raise KeyError()
+            raise AttributeError("this is attr error")
             print(mylist[10])
             print("MyClass1 object created...")
             print("a===", self.a)
